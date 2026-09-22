@@ -1,0 +1,9 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY TCPServer.py .
+
+EXPOSE 1228
+
+CMD ["python", "TCPServer.py"]
