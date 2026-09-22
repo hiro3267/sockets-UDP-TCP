@@ -6,4 +6,4 @@ COPY UDPServer.py .
 
 EXPOSE 1228
 
-CMD ["python", "UDPServer.py"]
+CMD ["python", "UDPServer-alef.py"]

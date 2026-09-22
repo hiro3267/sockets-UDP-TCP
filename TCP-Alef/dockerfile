@@ -6,4 +6,4 @@ COPY TCPServer.py .
 
 EXPOSE 1228
 
-CMD ["python", "TCPServer.py"]
+CMD ["python", "TCPServer-alef.py"]
